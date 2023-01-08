@@ -21,7 +21,6 @@ Or this example that uses a icon from a server with the MMM-VisualNotifications 
       "type": "icon",
       "url": "localproxy/?url=http://<ip>/icons/x"
     }],
-  //...
 ```
 
  > You can directly use the proxy `[MM2 Origin]/localproxy/?url=[Request]`. Remember to configure the `ipWhitelist` entry to only the devices that you want to be able to access the mirror.
