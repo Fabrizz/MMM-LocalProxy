@@ -1,13 +1,11 @@
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset=".github/content/logo-fabrizz-white.svg">
-  <source media="(prefers-color-scheme: light)" srcset=".github/content/logo-fabrizz-githubgray.svg">
-  <img alt="Fabrizz logo" src=".github/content/logo-fabrizz-fill.png">
-</picture>
+[<picture><source align="right" media="(prefers-color-scheme: dark)" srcset=".github/content/logo-fabrizz-white.svg"><source align="right" media="(prefers-color-scheme: light)" srcset=".github/content/logo-fabrizz-githubgray.svg"><img alt="Fabrizz logo" src=".github/content/logo-fabrizz-fill.png" align="right"></picture>](https://fabriz.co/)
+
+#
 
 # MMM-LocalProxy
 This [Magic Mirror²](https://github.com/MichMich/MagicMirror) module allows you to proxy a request from the browser to the backend, useful for development or accessing a local resource that does not include the `Access-Control-Allow-Private-Network` header. [[CORS-RFC1918 - Private Network Access](https://developer.chrome.com/blog/private-network-access-update/#what-is-private-network-access)]
 
-# Usage
+## Usage
 This module does not expose any configuration entries. To use it you just prefix your urls with `localproxy/?url=`.
 
 For example this image from Home Assistant:
@@ -25,7 +23,7 @@ Or this example that uses a icon from a server with the MMM-VisualNotifications 
 
  > You can directly use the proxy `[MM2 Origin]/localproxy/?url=[Request]`. Remember to configure the `ipWhitelist` entry to only the devices that you want to be able to access the mirror.
 
-# Instalation
+## Instalation
 - Clone this repository in your `modules` folder:
 
 ```bash
@@ -45,3 +43,6 @@ npm install
     module: "MMM-LocalProxy",
 },
 ```
+
+##
+With <3 by Fabrizz <br />[fabriz.co](https://fabriz.co/) [<picture><source align="right" media="(prefers-color-scheme: dark)" srcset=".github/content/logo-fabrizz-white.svg"><source align="right" media="(prefers-color-scheme: light)" srcset=".github/content/logo-fabrizz-githubgray.svg"><img alt="Fabrizz logo" src=".github/content/logo-fabrizz-fill.png" align="right"></picture>](https://fabriz.co/)
